@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.fondo img{
+background-repeat:no-repeat ;
+background-size: cover;
+object-fit: cover;
+width: 100%;
+height: 100vh;
+position:absolute;
+filter:brightness(60%);
+}
+header h1{
+    
+    top: 100px;
+    left: 0;
+    right: 0;
+    font-size: 48px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+header{
+    background-color: hsl(0, 0%, 21%);
+}
+
+.img{
+    width: 85%;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    right:0;
+    margin-left: auto;
+    position: relative;
+
+}
+
